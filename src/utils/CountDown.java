@@ -7,7 +7,7 @@ package utils;
  */
 public class CountDown {
 
-    private static Integer time = 1 * 60;
+    private static Integer time = 3 * 60;
     private static Integer var1 = 0;
 
     public static void timer() {

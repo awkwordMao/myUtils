@@ -1,4 +1,6 @@
 
+import utils.CountDown;
+
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
@@ -9,17 +11,17 @@ public class Test {
 //        runable();
 //        list();
 //        map();
-        List<String> list = Arrays.asList("qwq", "ere", "dfd");
+        /*List<String> list = Arrays.asList("qwq", "ere44", "dfd4");
         //map：将list中的String对象，换成了String对象的长度对象
         list.stream().map(String::length).collect(Collectors.toList()).forEach(System.out::println);
-//        for (int var1 = 0; var1 < 10; ++var1){
-//            System.out.println(var1);
-
-//
-//        }
+        //filter：过滤list中长度大于4的元素
+        list.stream().filter(s -> s.length() > 4).collect(Collectors.toList()).forEach(System.out::println);
 
         Calendar calendar = Calendar.getInstance();
         System.out.println(calendar.toString());
+        CountDown.timer();
+*/
+        System.out.println(8 & 8);
     }
 
 
